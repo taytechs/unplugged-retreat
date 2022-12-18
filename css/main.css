@@ -17,14 +17,14 @@ html {
 }
 
 /*
-     * Remove text-shadow in selection highlight:
-     * https://twitter.com/miketaylr/status/12228805301
-     *
-     * Vendor-prefixed and regular ::selection selectors cannot be combined:
-     * https://stackoverflow.com/a/16982510/7133471
-     *
-     * Customize the background color to match your design.
-     */
+   * Remove text-shadow in selection highlight:
+   * https://twitter.com/miketaylr/status/12228805301
+   *
+   * Vendor-prefixed and regular ::selection selectors cannot be combined:
+   * https://stackoverflow.com/a/16982510/7133471
+   *
+   * Customize the background color to match your design.
+   */
 
 ::-moz-selection {
   background: #b3d4fc;
@@ -37,8 +37,8 @@ html {
 }
 
 /*
-     * A better looking default horizontal rule
-     */
+   * A better looking default horizontal rule
+   */
 
 hr {
   display: block;
@@ -50,10 +50,10 @@ hr {
 }
 
 /*
-     * Remove the gap between audio, canvas, iframes,
-     * images, videos and the bottom of their containers:
-     * https://github.com/h5bp/html5-boilerplate/issues/440
-     */
+   * Remove the gap between audio, canvas, iframes,
+   * images, videos and the bottom of their containers:
+   * https://github.com/h5bp/html5-boilerplate/issues/440
+   */
 
 audio,
 canvas,
@@ -65,8 +65,8 @@ video {
 }
 
 /*
-     * Remove default fieldset styles.
-     */
+   * Remove default fieldset styles.
+   */
 
 fieldset {
   border: 0;
@@ -75,16 +75,16 @@ fieldset {
 }
 
 /*
-     * Allow only vertical resizing of textareas.
-     */
+   * Allow only vertical resizing of textareas.
+   */
 
 textarea {
   resize: vertical;
 }
 
 /* ==========================================================================
-       Browser Upgrade Prompt
-       ========================================================================== */
+     Browser Upgrade Prompt
+     ========================================================================== */
 
 .browserupgrade {
   margin: 0.2em 0;
@@ -94,8 +94,8 @@ textarea {
 }
 
 /* ==========================================================================
-       Author's custom styles
-       ========================================================================== */
+     Author's custom styles
+     ========================================================================== */
 
 .content-wrapper {
   width: 90%;
@@ -242,8 +242,8 @@ aside {
 }
 
 /* ==========================================================================
-       About Page
-       ========================================================================== */
+     About Page
+     ========================================================================== */
 
 .mission {
   display: flex;
@@ -263,10 +263,9 @@ aside {
   margin: 0;
 }
 
-
 /* ==========================================================================
-       FAQ Page
-       ========================================================================== */
+     FAQ Page
+     ========================================================================== */
 
 .faq {
   display: flex;
@@ -292,25 +291,25 @@ aside {
 }
 
 /* ==========================================================================
-       Helper classes
-       ========================================================================== */
+     Helper classes
+     ========================================================================== */
 
 /*
-     * Hide visually and from screen readers
-     */
+   * Hide visually and from screen readers
+   */
 
 .hidden {
   display: none !important;
 }
 
 /*
-     * Hide only visually, but have it available for screen readers:
-     * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
-     *
-     * 1. For long content, line feeds are not interpreted as spaces and small width
-     *    causes content to wrap 1 word per line:
-     *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
-     */
+   * Hide only visually, but have it available for screen readers:
+   * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+   *
+   * 1. For long content, line feeds are not interpreted as spaces and small width
+   *    causes content to wrap 1 word per line:
+   *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+   */
 
 .visuallyhidden {
   border: 0;
@@ -326,10 +325,10 @@ aside {
 }
 
 /*
-     * Extends the .visuallyhidden class to allow the element
-     * to be focusable when navigated to via the keyboard:
-     * https://www.drupal.org/node/897638
-     */
+   * Extends the .visuallyhidden class to allow the element
+   * to be focusable when navigated to via the keyboard:
+   * https://www.drupal.org/node/897638
+   */
 
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
@@ -343,24 +342,24 @@ aside {
 }
 
 /*
-     * Hide visually and from screen readers, but maintain layout
-     */
+   * Hide visually and from screen readers, but maintain layout
+   */
 
 .invisible {
   visibility: hidden;
 }
 
 /*
-     * Clearfix: contain floats
-     *
-     * For modern browsers
-     * 1. The space content is one way to avoid an Opera bug when the
-     *    `contenteditable` attribute is included anywhere else in the document.
-     *    Otherwise it causes space to appear at the top and bottom of elements
-     *    that receive the `clearfix` class.
-     * 2. The use of `table` rather than `block` is only necessary if using
-     *    `:before` to contain the top-margins of child elements.
-     */
+   * Clearfix: contain floats
+   *
+   * For modern browsers
+   * 1. The space content is one way to avoid an Opera bug when the
+   *    `contenteditable` attribute is included anywhere else in the document.
+   *    Otherwise it causes space to appear at the top and bottom of elements
+   *    that receive the `clearfix` class.
+   * 2. The use of `table` rather than `block` is only necessary if using
+   *    `:before` to contain the top-margins of child elements.
+   */
 
 .clearfix:before,
 .clearfix:after {
@@ -375,13 +374,142 @@ aside {
 }
 
 /* ==========================================================================
-       EXAMPLE Media Queries for Responsive Design.
-       These examples override the primary ('mobile first') styles.
-       Modify as content requires.
+     EXAMPLE Media Queries for Responsive Design.
+     These examples override the primary ('mobile first') styles.
+     Modify as content requires.
+     ========================================================================== */
+
+@media only screen and (min-width:768px) {
+  /*Tablet styles here*/
+
+  /* General styles */
+  .content-wrapper {
+    max-width: 640px;
+    margin: 100px 0;
+  }
+
+  /* Header */
+  header {
+    justify-content: space-around;
+    padding: 33px 0;
+  }
+
+  header .content-wrapper {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  header nav {
+    width: 20%;
+  }
+
+  header nav ul {
+    justify-content: space-between;
+  }
+
+  .header-divider {
+    display: none;
+  }
+
+  /* Hero Area */
+
+  /* Aside */
+  aside .content-wrapper {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+  }
+
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 40%;
+    margin: 0;
+  }
+
+  /* Features */
+  .features article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    flex-basis: 50%;
+  }
+
+  .features .features-item-description {
+    width: 50%;
+  }
+
+  /* Reviews */
+  .reviews article {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .reviews article div {
+    width: 49%;
+  }
+
+  /* Footer */
+  footer .content-wrapper {
+    width: 65%;
+    margin: 100px 0;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  footer .contact {
+    margin-bottom: 0;
+  }
+
+  footer .copyright {
+    width: 100%;
+  }
+
+  /* ==========================================================================
+       About Page
        ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+  .mission-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px
+  }
+
+  .mission-content p {
+    width: 45%;
+  }
+
+  .contact-section .content-wrapper h2 {
+    width: 80%;
+  }
+
+  .contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  /* ==========================================================================
+       FAQ Page
+       ========================================================================== */
+
+  .faq .content-wrapper {
+    justify-content: space-between;
+  }
+
+  .faq-content {
+    flex-basis: 45%;
+  }
+
+  .faq h2 {
+    width: 100%;
+  }
 }
 
 @media print,
@@ -392,10 +520,10 @@ aside {
 }
 
 /* ==========================================================================
-       Print styles.
-       Inlined to avoid the additional HTTP request:
-       https://www.phpied.com/delay-loading-your-print-css/
-       ========================================================================== */
+     Print styles.
+     Inlined to avoid the additional HTTP request:
+     https://www.phpied.com/delay-loading-your-print-css/
+     ========================================================================== */
 
 @media print {
 
@@ -424,9 +552,9 @@ aside {
   }
 
   /*
-         * Don't show links that are fragment identifiers,
-         * or use the `javascript:` pseudo protocol
-         */
+       * Don't show links that are fragment identifiers,
+       * or use the `javascript:` pseudo protocol
+       */
   a[href^="#"]:after,
   a[href^="javascript:"]:after {
     content: "";
@@ -443,9 +571,9 @@ aside {
   }
 
   /*
-         * Printing Tables:
-         * http://css-discuss.incutio.com/wiki/Printing_Tables
-         */
+       * Printing Tables:
+       * http://css-discuss.incutio.com/wiki/Printing_Tables
+       */
   thead {
     display: table-header-group;
   }
