@@ -107,11 +107,29 @@ footer {
   flex-flow: row wrap;
 }
 
+.content-wrapper {
+  width: 360px;
+}
+
 header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0px;
+}
+
+.header-divider {
+  width: 100%;
+  padding-bottom: 18px;
+}
+
+.header {
+  padding: 18px 0;
+}
+
+header a {
+  margin: 0px 70px 0px 70px;
 }
 
 header nav {
@@ -119,11 +137,32 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
+  margin-left: 0px 100px 0px 100px;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
+  width: 44%;
+}
+
+footer {
+  flex-direction: column;
+
+}
+
+footer p {
+  margin: 0px;
+}
+
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0px;
+}
+
+footer .contact {
+  margin-bottom: 50px;
 }
 
 footer .social-icons {
@@ -138,6 +177,22 @@ footer .social-icons p {
   align-items: center;
 }
 
+address p {
+  text-align: center;
+}
+
+.contact h4 {
+  text-align: center;
+}
+
+.social h4 {
+  text-align: center;
+}
+
+footer .copyright {
+  text-align: center;
+  margin: 20px 0px;
+}
 
 /* -------------------- Mobile Styles - Homepage -------------------- */
 
@@ -147,6 +202,11 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  padding-top: 55px;
+}
+
+.hero-area h1 {
+  margin: 0px 20px 0px 20px;
 }
 
 /* Aside */
@@ -156,6 +216,29 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding: 30px 0px 50px 0px;
+  margin: 0px;
+  20px;
+}
+
+.contact-form h3 {
+  padding: 40px 0px 20px 0px;
+}
+
+.input-styles {
+  flex-direction: column;
+}
+
+input[type=text] {
+  padding-bottom: 25px;
+  margin-right: 50px;
+  padding-right: 126px;
+}
+
+input[type=button] {
+  padding-bottom: 25px;
+  margin-top: 15px;
+  padding-right: 190px;
 }
 
 /* Features */
@@ -164,6 +247,12 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  padding-top: 50px;
+}
+
+.features article {
+  width: 44%;
+  padding: 50px 100px;
 }
 
 .features .features-items {
@@ -173,12 +262,31 @@ aside {
   flex-flow: row wrap;
 }
 
+.features p {
+  margin: 0px;
+}
+
 /* Reviews */
 
 .reviews {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  padding: 50px 0px;
+  margin: 0px 20px;
+}
+
+.reviews h2 {
+  padding-bottom: 25px;
+}
+
+.reviews h3 {
+  width: 48%;
+  padding: 20px 0px;
+}
+
+.reviews p {
+  padding-bottom: 65px;
 }
 
 /* ==========================================================================
