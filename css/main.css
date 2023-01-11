@@ -152,7 +152,10 @@ img {
   width: 100%;
 }
 
-figure {}
+figure {
+
+  margin: 0;
+}
 
 address {
 
@@ -178,6 +181,14 @@ footer {
 
 header {
   padding: 15px 0;
+}
+
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 header .content-wrapper {
@@ -296,6 +307,7 @@ aside {
   align-items: center;
   flex-flow: row wrap;
   background-color: #527158;
+
 }
 
 /* Features */
@@ -304,6 +316,11 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/rawpixel-800820-unsplash1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #333;
 }
 
 .features h2 {
@@ -335,6 +352,11 @@ aside {
   background-color: #2a423a;
 }
 
+.reviews img {
+  width: 20em;
+  height: 12.5em;
+}
+
 .reviews h2 {
   margin-bottom: 40px;
 }
@@ -342,7 +364,10 @@ aside {
 .reviews h3 {
   width: 55%;
   margin: 20px 0;
+
 }
+
+.reviews p {}
 
 /* ==========================================================================
      About Page
@@ -515,6 +540,10 @@ aside {
     display: none;
   }
 
+  header figure {
+    width: 30%;
+  }
+
   /* Hero Area */
 
   /* Aside */
@@ -625,6 +654,10 @@ aside {
 
   .content-wrapper {
     max-width: 960px;
+  }
+
+  header figure {
+    width: 20%;
   }
 
   /* Hero */
