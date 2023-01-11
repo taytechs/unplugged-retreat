@@ -717,6 +717,11 @@ aside {
     flex-basis: 33%;
   }
 
+  .features i {
+    font-size: 3.75em;
+    margin-bottom: 40px;
+  }
+
   /* Reviews */
   .reviews article div {
     width: 42%;
