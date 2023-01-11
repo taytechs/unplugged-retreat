@@ -250,8 +250,17 @@ footer .social-icons p {
   align-items: center;
 }
 
+footer .social-icons i {
+  font-size: 150%;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+
 footer .copyright {
   margin: 20px 0;
+  display: flex;
+  justify-content: center;
 }
 
 aside .form {
@@ -378,6 +387,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 .map figure {
@@ -417,6 +427,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 .faq .content-wrapper {
@@ -587,6 +598,11 @@ aside {
 
   .features .features-item-description {
     width: 62%;
+  }
+
+  .features i {
+    font-size: 3.75em;
+    margin-bottom: 40px;
   }
 
   /* Reviews */
