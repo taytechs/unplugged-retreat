@@ -110,6 +110,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   text-align: left;
+  color: #e2e3ed;
 }
 
 ul,
@@ -128,6 +129,7 @@ h2 {
 
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
+  font-weight: 500;
 
 }
 
@@ -137,6 +139,7 @@ h4 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.125em;
   margin: 20px 0;
+  font-weight: 500;
 }
 
 p {
@@ -168,6 +171,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #202322;
 }
 
 header {
@@ -194,6 +198,8 @@ header nav {
   align-items: center;
   flex-flow: row wrap;
   width: 60%;
+  font-weight: bold;
+  font-size: 1.125em;
 }
 
 header nav ul {
@@ -235,6 +241,36 @@ footer .copyright {
   margin: 20px 0;
 }
 
+aside .form {
+  margin-top: 30px;
+}
+
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+  color: white;
+  font-size: 1.125em;
+  font-weight: 500;
+}
+
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  background-color: #2a423a;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+
 /* -------------------- Mobile Styles - Homepage -------------------- */
 
 /* Hero Area */
@@ -252,6 +288,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 /* Features */
@@ -288,6 +325,7 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 
 .reviews h2 {
@@ -315,6 +353,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 
 .contact-content p {
