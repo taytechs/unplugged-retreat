@@ -561,6 +561,7 @@ aside {
 
   header nav ul {
     justify-content: space-between;
+    padding-left: 10px;
   }
 
   .header-divider {
